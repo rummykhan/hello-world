@@ -6,6 +6,11 @@ class HelloWorld
 {
     public function sayHello()
     {
-        echo get_class($this) . " >> Hello World \n";
+        echo get_class($this) . " >> sayHello >> Hello World \n";
+    }
+
+    public function getHello()
+    {
+        return get_class($this) . " >> getHello >> Hello World";
     }
 }
