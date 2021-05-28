@@ -1,0 +1,16 @@
+{
+    "name": "rummykhan/hello-world",
+    "description": "This is a hello world package",
+    "authors": [
+        {
+            "name": "Rehan Manzoor",
+            "email": "rehan_manzoor@outlook.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RummyKhan\\HelloWorld\\" : "rummykhan/hello-world/src"
+        }
+    }
+}
