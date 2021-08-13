@@ -18,4 +18,6 @@ class HelloWorld
     {
         return get_class($this) . " >> noHello >> Hello World";
     }
+
+    // this is something
 }
