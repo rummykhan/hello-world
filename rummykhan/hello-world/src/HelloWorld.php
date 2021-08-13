@@ -13,4 +13,9 @@ class HelloWorld
     {
         return get_class($this) . " >> getHello >> Hello World";
     }
+
+    public function noHello()
+    {
+        return get_class($this) . " >> noHello >> Hello World";
+    }
 }
